@@ -1,0 +1,11 @@
+C:\Users\charr\Documents\GitHub\Exercice1_Alex_Charron\Exercice_1_Alex_Charron\Exercice_1_Alex_Charron\bin\Debug\Exercice_1_Alex_Charron.exe.config
+C:\Users\charr\Documents\GitHub\Exercice1_Alex_Charron\Exercice_1_Alex_Charron\Exercice_1_Alex_Charron\bin\Debug\Exercice_1_Alex_Charron.exe
+C:\Users\charr\Documents\GitHub\Exercice1_Alex_Charron\Exercice_1_Alex_Charron\Exercice_1_Alex_Charron\bin\Debug\Exercice_1_Alex_Charron.pdb
+C:\Users\charr\Documents\GitHub\Exercice1_Alex_Charron\Exercice_1_Alex_Charron\Exercice_1_Alex_Charron\obj\Debug\Exercice_1_Alex_Charron.csproj.AssemblyReference.cache
+C:\Users\charr\Documents\GitHub\Exercice1_Alex_Charron\Exercice_1_Alex_Charron\Exercice_1_Alex_Charron\obj\Debug\Exercice_1_Alex_Charron.csproj.SuggestedBindingRedirects.cache
+C:\Users\charr\Documents\GitHub\Exercice1_Alex_Charron\Exercice_1_Alex_Charron\Exercice_1_Alex_Charron\obj\Debug\Exercice_1_Alex_Charron.Form1.resources
+C:\Users\charr\Documents\GitHub\Exercice1_Alex_Charron\Exercice_1_Alex_Charron\Exercice_1_Alex_Charron\obj\Debug\Exercice_1_Alex_Charron.Properties.Resources.resources
+C:\Users\charr\Documents\GitHub\Exercice1_Alex_Charron\Exercice_1_Alex_Charron\Exercice_1_Alex_Charron\obj\Debug\Exercice_1_Alex_Charron.csproj.GenerateResource.cache
+C:\Users\charr\Documents\GitHub\Exercice1_Alex_Charron\Exercice_1_Alex_Charron\Exercice_1_Alex_Charron\obj\Debug\Exercice_1_Alex_Charron.csproj.CoreCompileInputs.cache
+C:\Users\charr\Documents\GitHub\Exercice1_Alex_Charron\Exercice_1_Alex_Charron\Exercice_1_Alex_Charron\obj\Debug\Exercice_1_Alex_Charron.exe
+C:\Users\charr\Documents\GitHub\Exercice1_Alex_Charron\Exercice_1_Alex_Charron\Exercice_1_Alex_Charron\obj\Debug\Exercice_1_Alex_Charron.pdb
