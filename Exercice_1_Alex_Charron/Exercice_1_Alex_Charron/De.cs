@@ -6,18 +6,16 @@ using System.Threading.Tasks;
 
 namespace Exercice_1_Alex_Charron
 {
-    public class De
+    public abstract class De
     {
         internal const int nbFaces = 6;
+
+        public string Type;
 
         public De()
         {
         }
 
-        public virtual int Brasser()
-        {
-            Random random = new Random();
-            return random.Next(1, nbFaces + 1);
-        }
+        public abstract int Brasser();
     }
 }

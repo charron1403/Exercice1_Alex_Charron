@@ -48,6 +48,7 @@
   <ItemGroup>
     <Compile Include="Controleur.cs" />
     <Compile Include="De.cs" />
+    <Compile Include="DeOrdinaire.cs" />
     <Compile Include="DePipe.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>

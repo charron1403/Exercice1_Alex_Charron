@@ -19,13 +19,13 @@ namespace Exercice_1_Alex_Charron
             Random random = new Random();
             if (lstTypeDes[random.Next(2)] == "normal")
             {
-                deCourant = new De();
-                typeDe = "normal";
+                deCourant = new DeOrdinaire();
+                typeDe = ((DeOrdinaire)deCourant).Type;
             }
             else
             {
                 deCourant = new DePipe();
-                typeDe = "pipé";
+                typeDe = ((DePipe)deCourant).Type;
             }
         }
 
