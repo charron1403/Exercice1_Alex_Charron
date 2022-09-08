@@ -8,6 +8,7 @@ namespace Exercice_1_Alex_Charron
 {
     public class DePipe : De
     {
+        public new string Type { get => "pipé"; }
         public DePipe() : base()
         {
 
