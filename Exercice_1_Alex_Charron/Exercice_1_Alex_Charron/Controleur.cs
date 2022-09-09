@@ -9,22 +9,30 @@ namespace Exercice_1_Alex_Charron
     public class Controleur
     {
         private De deCourant;
+        private DeOrdinaire deOrdinaire;
+        private DePipe dePipe;
         private string[] lstTypeDes = {"normal", "pipé"};
         private int totalResultatDes;
 
         public int TotalResultatDes { get => totalResultatDes; }
+
+        public Controleur()
+        {
+            deOrdinaire = new DeOrdinaire();
+            dePipe = new DePipe();
+        }
 
         public string GenererDeAuHasard()
         {
             Random random = new Random();
             if (lstTypeDes[random.Next(2)] == "normal")
             {
-                deCourant = new DeOrdinaire();
+                deCourant = deOrdinaire;
                 return ((DeOrdinaire)deCourant).Type;
             }
             else
             {
-                deCourant = new DePipe();
+                deCourant = dePipe;
                 return ((DePipe)deCourant).Type;
             }
         }
