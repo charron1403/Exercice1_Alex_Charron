@@ -32,9 +32,8 @@ namespace Exercice_1_Alex_Charron
         private void MettreAJourAffichage()
         {
             string type;
-            controleur.GenererDeAuHasard(out type);
+            txtValeur.Text = "Valeur du dé: " + controleur.BrasserDe(out type).ToString();
             txtType.Text = "Type du dé: " + type;
-            txtValeur.Text = "Valeur du dé: " + controleur.BrasserDe().ToString();
             txtTotal.Text = "Total: " + controleur.TotalResultatDes.ToString();
         }
     }

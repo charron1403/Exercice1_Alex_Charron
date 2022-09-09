@@ -9,10 +9,6 @@ namespace Exercice_1_Alex_Charron
     public class DeOrdinaire : De
     {
         public new string Type { get => "ordinaire"; }
-        public DeOrdinaire() : base()
-        {
-
-        }
 
         public override int Brasser()
         {

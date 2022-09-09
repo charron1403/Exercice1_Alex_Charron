@@ -14,23 +14,24 @@ namespace Exercice_1_Alex_Charron
 
         public int TotalResultatDes { get => totalResultatDes; }
 
-        public void GenererDeAuHasard(out string typeDe)
+        public string GenererDeAuHasard()
         {
             Random random = new Random();
             if (lstTypeDes[random.Next(2)] == "normal")
             {
                 deCourant = new DeOrdinaire();
-                typeDe = ((DeOrdinaire)deCourant).Type;
+                return ((DeOrdinaire)deCourant).Type;
             }
             else
             {
                 deCourant = new DePipe();
-                typeDe = ((DePipe)deCourant).Type;
+                return ((DePipe)deCourant).Type;
             }
         }
 
-        public int BrasserDe()
+        public int BrasserDe(out string typeDe)
         {
+            typeDe = GenererDeAuHasard();
             int resultatDes = deCourant.Brasser();
             totalResultatDes += resultatDes;
             return resultatDes;
